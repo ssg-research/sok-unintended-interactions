@@ -1,0 +1,6 @@
+*.log
+__pycache__/
+*.pdf
+results/
+output/
+logs/

@@ -1,0 +1,24 @@
+name: sok
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - captum==0.7.0
+    - matplotlib==3.8.3
+    - numpy==1.26.4
+    - pandas==2.2.1
+    - requests==2.31.0
+    - scikit-learn==1.4.1.post1
+    - scipy==1.12.0
+    - six==1.16.0
+    - torch
+    - torchvision
+    - tqdm==4.66.2
+    - typing_extensions==4.10.0
+    - urllib3==2.2.1
+    - wheel==0.42.0
+    - seaborn==0.13.2
